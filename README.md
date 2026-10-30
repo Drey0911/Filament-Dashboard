@@ -1,155 +1,147 @@
-# Gestión de Inventario con Filament
-## Tecnologías 
+<h1 align="center">Gestión de Inventario con Filament</h1>
 
 <p align="center">
-  <a href="https://laravel.com"><img src="https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white" alt="Laravel"></a>
-  <a href="https://www.php.net"><img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" alt="PHP"></a>
-  <a href="https://filamentphp.com"><img src="https://img.shields.io/badge/Filament-Admin-16B1FF" alt="Filament"></a>
-  <a href="https://livewire.laravel.com"><img src="https://img.shields.io/badge/Livewire-Components-4E46E5" alt="Livewire"></a>
-  <a href="https://vite.dev"><img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite"></a>
-  <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS"></a>
-  <a href="https://www.mysql.com"><img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL"></a>
-  <a href="https://getcomposer.org"><img src="https://img.shields.io/badge/Composer-885630?logo=composer&logoColor=white" alt="Composer"></a>
-  <a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" alt="Node.js"></a>
-  <a href="https://github.com/Maatwebsite/Laravel-Excel"><img src="https://img.shields.io/badge/Maatwebsite%20Excel-Exports-5A29E4" alt="Maatwebsite Excel"></a>
-  <a href="https://github.com/barryvdh/laravel-dompdf"><img src="https://img.shields.io/badge/DomPDF-PDF-CC0000" alt="DomPDF"></a>
-  <a href="https://www.chartjs.org"><img src="https://img.shields.io/badge/Chart.js-FF6384?logo=chart.js&logoColor=white" alt="Chart.js"></a>
+  Dashboard para controlar productos, entradas, salidas, proveedores y clientes con reportes y gráficas.<br/>
+  <sub>Dashboard to manage products, stock in/out, suppliers and customers with reports and charts.</sub>
 </p>
 
-## Descripción
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-Web-38BDF8?style=flat" alt="Web"/>
+  <img src="https://img.shields.io/badge/type-Backend-FF2D20?style=flat" alt="Backend"/>
+  <img src="https://img.shields.io/badge/year-2025-495057?style=flat" alt="2025"/>
+</p>
 
-Aplicación para la gestión de inventario construida con Laravel y el panel administrativo Filament. Permite registrar entradas de productos, administrar productos, proveedores, categorías y clientes, visualizar métricas en un dashboard y exportar datos a Excel y PDF.
+<p align="center">
+  <a href="#español">Español</a> · <a href="#english">English</a>
+</p>
 
-## Características
+<p align="center">
+  <img src="https://drey.is-a.dev/img/projects/project5/project5-2.png" alt="Dashboard" width="90%"/>
+</p>
 
-- Panel de control con estadísticas y gráficos por categorías: Entradas, Productos y Proveedores.
-- Registro de entradas con actualización automática de stock del producto.
-- Edición y eliminación de entradas con ajuste/reversión de stock correspondiente.
-- Gestión completa de productos, proveedores, categorías y clientes.
-- Gestión de Salidas y entradas al inventario.
-- Filtros avanzados, búsqueda y acciones en tabla.
-- Exportaciones a Excel y PDF.
-- Frontend moderno con Vite + Tailwind CSS.
+## Tech stack
 
-## Tecnologías
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=flat&logo=php&logoColor=white" alt="PHP 8.2"/>
+  <img src="https://img.shields.io/badge/Laravel-12-FF2D20?style=flat&logo=laravel&logoColor=white" alt="Laravel 12"/>
+  <img src="https://img.shields.io/badge/Filament-3-FDAE4B?style=flat" alt="Filament 3"/>
+  <img src="https://img.shields.io/badge/Livewire-Components-4E56A6?style=flat&logo=livewire&logoColor=white" alt="Livewire"/>
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS 4"/>
+  <img src="https://img.shields.io/badge/Vite-7-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite 7"/>
+  <img src="https://img.shields.io/badge/Chart.js-Charts-FF6384?style=flat&logo=chartdotjs&logoColor=white" alt="Chart.js"/>
+  <img src="https://img.shields.io/badge/Laravel%20Excel-Exports-21A366?style=flat" alt="Laravel Excel"/>
+  <img src="https://img.shields.io/badge/DomPDF-PDF-CC0000?style=flat" alt="DomPDF"/>
+</p>
 
-- Backend: Laravel, Eloquent ORM, Filament (Admin Panel), Livewire.
-- Frontend: Vite, Tailwind CSS.
-- Base de datos: MySQL.
-- Exportación: Maatwebsite Excel, DomPDF.
-- Gráficos: Chart.js (a través de Filament ChartWidget).
+## Screenshots
 
-## Requisitos
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://drey.is-a.dev/img/projects/project5/project5-3.png" alt="Charts"/>
+      <br/><b>Gráficas · Charts</b><br/><sub>Entradas y salidas por mes y por producto</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://drey.is-a.dev/img/projects/project5/project5-4.png" alt="Products"/>
+      <br/><b>Productos · Products</b><br/><sub>Tabla con filtros y exportación a Excel y PDF</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://drey.is-a.dev/img/projects/project5/project5-5.png" alt="New entry"/>
+      <br/><b>Nueva entrada · New stock entry</b><br/><sub>Actualiza el stock automáticamente</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://drey.is-a.dev/img/projects/project5/project5-6.png" alt="Outputs"/>
+      <br/><b>Salidas · Stock out</b><br/><sub>Ventas por cliente con factura y totales</sub>
+    </td>
+  </tr>
+</table>
 
-- PHP 8.x
-- Composer
-- Node.js 18+ (para Vite)
-- MySQL 5.7/8+
+---
 
-## Lenguaje
+## Español
 
-Dentro de las .env que crees, debes especificar el idioma para que se haga la traducción
-correcta en los modulos y dashboard de Filament
- 
-   ```bash
-    APP_LOCALE=es
-    APP_FALLBACK_LOCALE=es
-    APP_FAKER_LOCALE=es_ES
-   ```
+> Aplicación de inventario construida con Laravel y el panel administrativo de Filament. Registra entradas y salidas, mantiene el stock al día y muestra métricas en un dashboard.
 
-## Instalación
+### Funcionalidades
 
-1. Clonar el proyecto.
-2. Instalar dependencias de PHP:
-   
-   ```bash
-   composer install
-   ```
+| Área | Descripción |
+|---|---|
+| **Dashboard** | Estadísticas y gráficas por categoría: entradas, productos (stock, valor, bajo stock) y proveedores. |
+| **Entradas** | Registro de compras que suma stock automáticamente; al editar o eliminar se ajusta o revierte. |
+| **Salidas** | Registro de ventas por cliente con número de factura. |
+| **Catálogo** | Gestión de productos, categorías, proveedores y clientes. |
+| **Tablas** | Búsqueda, filtros avanzados y acciones por fila. |
+| **Reportes** | Exportación a Excel (Laravel Excel) y PDF (DomPDF). |
 
-3. Copiar y configurar variables de entorno:
-   
-   ```bash
-   cp .env.example .env
-   # Editar .env y configurar DB_* y APP_URL
-   ```
+### Cómo ejecutarlo
 
-4. Generar clave de la aplicación:
-   
-   ```bash
-   php artisan key:generate
-   ```
+Requisitos: **PHP 8.2+**, Composer, Node.js 18+ y MySQL.
 
-5. Ejecutar migraciones:
-   
-   ```bash
-   php artisan migrate
-   ```
+```bash
+composer install
+cp .env.example .env        # configura DB_* y APP_URL
+php artisan key:generate
+php artisan migrate
+npm install && npm run dev
+php artisan serve
+```
 
-6. Instalar dependencias de frontend y levantar Vite:
-   
-   ```bash
-   npm install
-   npm run dev
-   ```
+Entra al panel en `/dashboard`.
 
-7. Levantar el servidor de Laravel:
-   
-   ```bash
-   php artisan serve
-   ```
+> [!TIP]
+> Para ver Filament en español agrega al `.env`: `APP_LOCALE=es`, `APP_FALLBACK_LOCALE=es` y `APP_FAKER_LOCALE=es_ES`.
 
-## Uso
+### Estructura
 
-- Accede al panel en `/dashboard`.
-- Desde el menú de navegación de Filament, gestiona Entradas, Productos, Proveedores, Categorías y Clientes.
+```
+app/Filament/Resources   CRUD de Filament (entradas, salidas, productos, proveedores, categorías, clientes)
+app/Filament/Widgets     Estadísticas y gráficas del dashboard
+app/Exports              Exportaciones a Excel
+app/Models               Modelos Eloquent
+resources/views          Vistas Blade (incluye las de PDF)
+```
 
-## Estructura Principal
+---
 
-- `app/Filament/Resources` — Recursos CRUD de Filament (Entradas, Productos, Proveedores, Categorías, Clientes).
-- `app/Filament/Widgets` — Widgets del dashboard (estadísticas y gráficos).
-- `app/Http/Controllers` — Controladores web para vistas tradicionales y exportaciones.
-- `app/Models` — Modelos Eloquent.
-- `resources/views` — Vistas Blade.
-- `public/` — Assets públicos.
-- `vite.config.js` — Configuración de Vite + Tailwind.
+## English
 
-## Dashboard y Widgets
+> Inventory app built with Laravel and the Filament admin panel. It records stock entries and outputs, keeps stock up to date and shows metrics on a dashboard.
 
-- Entradas:
-  - `EntradasStats` — Estadísticas de entradas del día/mes.
-  - `EntradasPorMesChart` — Gráfico de entradas por mes.
-  - `TopProductosEntradasChart` — Top productos más entrados.
-- Productos:
-  - `ProductosStats` — Totales, activos, stock, valor del stock, bajo stock.
-  - `ProductosBajoStock` — Tabla de productos con bajo stock.
-- Proveedores:
-  - `ProveedoresStats` — Totales, activos e inactivos.
+### Features
 
-Los widgets están ordenados por categorías para una lectura rápida: primero Entradas, luego Productos y finalmente Proveedores.
+| Area | Description |
+|---|---|
+| **Dashboard** | Stats and charts by category: entries, products (stock, value, low stock) and suppliers. |
+| **Entries** | Purchase records that add stock automatically; editing or deleting adjusts or reverts it. |
+| **Outputs** | Sales records per customer with invoice number. |
+| **Catalog** | Management of products, categories, suppliers and customers. |
+| **Tables** | Search, advanced filters and row actions. |
+| **Reports** | Export to Excel (Laravel Excel) and PDF (DomPDF). |
 
-## Lógica de Stock de Entradas
+### Getting started
 
-- Al crear una entrada desde Filament, se incrementa el stock del producto automáticamente:
-  - `app/Filament/Resources/EntradaResource/Pages/CreateEntrada.php:28-47`.
-- Al crear una entrada desde el flujo de controlador clásico, también se incrementa el stock:
-  - `app/Http/Controllers/EntradaController.php:64-81`.
-- Al editar o eliminar entradas desde el flujo clásico, se ajusta/revierte el stock:
-  - `app/Http/Controllers/EntradaController.php:102-142`, `app/Http/Controllers/EntradaController.php:144-154`.
+Requirements: **PHP 8.2+**, Composer, Node.js 18+ and MySQL.
 
-## Exportaciones
+```bash
+composer install
+cp .env.example .env        # set DB_* and APP_URL
+php artisan key:generate
+php artisan migrate
+npm install && npm run dev
+php artisan serve
+```
 
-- Excel:
-  - `app/Exports/ProductosExport.php`
-  - `app/Exports/EntradasExport.php`
-- PDF:
-  - `Barryvdh\\DomPDF` con vistas dedicadas.
+Open the panel at `/dashboard`.
 
-## Scripts útiles
+> [!TIP]
+> To show Filament in Spanish, add to `.env`: `APP_LOCALE=es`, `APP_FALLBACK_LOCALE=es` and `APP_FAKER_LOCALE=es_ES`.
 
-- `php artisan migrate` — Ejecuta migraciones.
-- `php artisan serve` — Servidor local.
-- `npm run dev` — Arranca Vite en modo desarrollo.
+---
 
-## Licencia
+## Autor · Author
 
-Proyecto basado en Laravel. Consulta la licencia correspondiente al framework y a los paquetes utilizados. Andrey Mantilla.
+Desarrollado por **Andrey Mantilla Leon** · Ingeniería de Sistemas. Portafolio: [drey.is-a.dev](https://drey.is-a.dev)
