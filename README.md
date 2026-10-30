@@ -1,6 +1,5 @@
-<p align="center">
-  <strong style="font-size:80px">Gestión de Inventario con Filament</strong>
-</p>
+# Gestión de Inventario con Filament
+## Tecnologías 
 
 <p align="center">
   <a href="https://laravel.com"><img src="https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white" alt="Laravel"></a>
